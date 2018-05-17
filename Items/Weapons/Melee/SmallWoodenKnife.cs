@@ -13,13 +13,13 @@ namespace HeavenlyAscension.Items.Weapons.Melee
         }
         public override void SetDefaults()
         {
-            item.damage = 8;
+            item.damage = 2;
             item.melee = true;
             item.width = 16;
             item.height = 16;
-            item.useTime = 20;
-            item.useAnimation = 20;
-            item.useStyle = 1;
+            item.useTime = 10;
+            item.useAnimation = 10;
+            item.useStyle = 3;
             item.knockBack = 6;
             item.value = 10;
             item.rare = 0;
